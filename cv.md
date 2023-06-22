@@ -12,9 +12,10 @@
 - Discord: Pavel(@pfilippov1)
 ---
 ### **Briefly About Myself:**
-s
-Experienced IT professional with excellent soft skills and a strong team player attitude. Proficient in Java, Python, JavaScript, HTML5, CSS3, SQL, and business analytics. Knowledgeable in Git and GitHub. Skilled in using VS Code, IntelliJ IDEA, and WebStorm. Also has experience working in technical support. Seeking a challenging role in an organization where I can leverage my skills and contribute to the company's success.
 
+An experienced individual with excellent soft skills and a strong team player attitude. Proficient in Java, Python, JavaScript, HTML5, CSS3, SQL, and business analytics. Knowledgeable in Git and GitHub. Skilled in using VS Code, IntelliJ IDEA, and WebStorm. Also has experience working in technical support. Seeking a challenging role in an organization where I can leverage my skills and contribute to the company's success.
+
+---
 ### **Technical Skills:**
 - HTML5, CSS3
 - Programming languages: Java, Python, JavaScript
@@ -52,6 +53,7 @@ Write a function that takes in a string of one or more words, and returns the sa
 ---
 ## **Experience**
 https://github.com/PFilippov1/rsschool-cv/tree/gh-pages
+
 ---
 ## **Education:**
 - Belarusian State University of Informatics and Radioelectronics
