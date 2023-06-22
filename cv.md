@@ -10,6 +10,8 @@
 - Telegram: @pFiller
 - [LinkedIn](https://linkedin.com/in/pavel-filipau) 
 - Discord: Pavel(@pfilippov1)
+
+
 ---
 ### **Briefly About Myself:**
 
@@ -23,6 +25,8 @@ An experienced individual with excellent soft skills and a strong team player at
 - Version control: Git, GitHub
 - VS Code, IntelliJ IDEA, WebStorm
 - Business Analytics: Data analysis, Data visualization
+
+
 ---
 ### **Soft Skills**
 
