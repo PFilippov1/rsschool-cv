@@ -10,13 +10,13 @@
   }
 
   @font-face {
-    font-family: 'Courgette';
-    src: url("assets/fonts/Courgette-Regular.ttf");
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Regular.ttf");
     font-weight: 100;
   }
   @font-face {
-    font-family: 'Courgette';
-    src: url("assets/fonts/Courgette-Regular.ttf");
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Regular.ttf");
     font-weight: 300;
   }
 
@@ -27,6 +27,11 @@ body {
     margin: 0; padding: 0;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  .header .container .nav-list {
+    display: flex;
+    flex-wrap: wrap; 
   }
 
 .footer {
@@ -56,10 +61,6 @@ body {
     list-style: none;
   }
 
-/* .nav li {
-    margin: 1%;
-  } */
-
   html {
     scroll-behavior: smooth; 
   }
@@ -81,3 +82,104 @@ body {
   .nav-link:visited {
     color: #978c8c;
   }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+   .section h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.5;
+  }
+
+  h1.section-title  {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: 'Roboto', 'sans-serif';
+    line-height: 1.5;
+  }
+
+  .contacts-first {
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', 'sans-serif';
+    color:#799a7d;
+  }
+
+  .contacts-second {
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', 'sans-serif';
+    margin-left: 10px;
+    color:#454251;
+  }
+
+  .section-summary {
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', 'sans-serif';
+    color:#000000;
+  }
+
+  .skills-content{
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', 'sans-serif';
+    color:#000000;
+  }
+
+  .code-realization {
+    padding-left: 15px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'sans-serif';
+    color:#000000;
+  }
+
+  .education-institute {
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', 'sans-serif';
+    color:#000000;
+  }
+
+  .languages {
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', 'sans-serif';
+    color:#000000;
+  }
+  
+
+  
