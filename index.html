@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.ico">
+    <link rel="icon" href="assets/img/icon/rss-logo.ico">
 </head>
 
 <body>
@@ -28,18 +28,23 @@
     <main class="main">
         <div class="container main-container">
             <section class="section" id="profile">
+                <span class="avatar">
+                    <img src="/assets/img/ava.jpg" alt="myPhoto">
+                </span>
                 <h1 class="section-title">Pavel Filipau</h1>
             </section>
             <section class="section" id="contacts">
                 <h2 class="section-title">Contacts</h2>
                 <ul class="section-contacts">
-                    <li class="contacts"><span class="contacts-first">E-mail:</span><span
+                    <li class="contacts-email"><span class="contacts-first">E-mail:</span><span
                             class="contacts-second">p.filippov2.20@gmail.com</span></li>
-                    <li class="contacts"><span class="contacts-first">Telegram:</span><span
+                    <li class="contacts-telegram"><span class="contacts-first">Telegram:</span><span
                             class="contacts-second">@pFiller</span></li>
-                    <li class="contacts"><span class="contacts-first">LinkedIn:</span><span
+                    <li class="contacts-linkedin"><span class="contacts-first">LinkedIn:</span><span
                             class="contacts-second">https://linkedin.com/in/pavel-filipau</span></li>
-                    <li class="contacts"><span class="contacts-first">Discord:</span><span
+                    <li class="contacts-github"><span class="contacts-first">GitHub:</span><span
+                            class="contacts-second">https://github.com/PFilippov1</span></li>
+                    <li class="contacts-discord"><span class="contacts-first">Discord:</span><span
                             class="contacts-second">filler547</span></li>
 
                 </ul>
@@ -73,7 +78,7 @@
                 <pre class="code-realization">function spinWords(string) {
     let fixStr = [];
     let str = string.split(' ')
-    for (let i = 0; i < str.length; i++) {
+    for (let i = 0; i &#60; str.length; i++) {
         if (str[i].length >= 5) {
             fixStr.push(str[i].split('').reverse().join(''));
             } else {
@@ -98,15 +103,19 @@
             <section class="section" id="languages">
                 <h2 class="section-title">Languages</h2>
                 <ul class="languages">
-                    <li class="type-language">English - B1 Intermediate</li>
-                    <li class="type-language">Russian - Native</li>
-                    <li class="type-language">Lithuanian - Basic</li>
+                    <li class="type-language"><span class="languages-level">English</span> - <span>B1
+                            Intermediate</span></li>
+                    <li class="type-language"><span class="languages-level">Russian</span> - <span>Native</span></li>
+                    <li class="type-language"><span class="languages-level">Lithuanian</span> - <span>Basic</span></li>
                 </ul>
             </section>
         </div>
     </main>
     <footer class="footer">
-        <div class="container"></div>
+        <div class="container footer-container">
+            <div>© 2023 <a href="https://github.com/PFilippov1" class="github nav-link">PFilippov1</a></div>
+            <a href="https://rs.school/js/" class="rss"></a>
+        </div>
     </footer>
 
 </body>
