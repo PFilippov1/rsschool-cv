@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/img/icon/rss-logo.ico">
+    <link rel="icon" href="/assets/img/icon/rss-logo.ico" alt="rssLogo">
 </head>
 
 <body>
@@ -29,7 +29,7 @@
         <div class="container main-container">
             <section class="section" id="profile">
                 <span class="avatar">
-                    <img src="/assets/img/ava.jpg" alt="myPhoto">
+                    <img src="./assets/img/ava.jpg" alt="myPhoto">
                 </span>
                 <h1 class="section-title">Pavel Filipau</h1>
             </section>
@@ -79,7 +79,7 @@
     let fixStr = [];
     let str = string.split(' ')
     for (let i = 0; i &#60; str.length; i++) {
-        if (str[i].length >= 5) {
+        if (str[i].length &gt;= 5) {
             fixStr.push(str[i].split('').reverse().join(''));
             } else {
                 fixStr.push(str[i]);
@@ -97,7 +97,7 @@
                 <h2 class="section-title">Education</h2>
                 <ul class="education">
                     <li class="education-institute">Belarusian State University of Informatics and Radioelectronics</li>
-                    <li class="education-institute">Institute of IT & Business Administration</li>
+                    <li class="education-institute">Institute of IT &amp; Business Administration</li>
                 </ul>
             </section>
             <section class="section" id="languages">
@@ -113,7 +113,8 @@
     </main>
     <footer class="footer">
         <div class="container footer-container">
-            <div class="footer-year">© 2023 <a href="https://github.com/PFilippov1" class="github nav-link">PFilippov1</a></div>
+            <div class="footer-year">© 2023 <a href="https://github.com/PFilippov1"
+                    class="github nav-link">PFilippov1</a></div>
             <a href="https://rs.school/js/" class="rss"></a>
         </div>
     </footer>
