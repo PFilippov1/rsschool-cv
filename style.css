@@ -1,0 +1,347 @@
+@font-face {
+  font-family: "Courgette";
+  src: url("assets/fonts/Courgette-Regular.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Courgette";
+  src: url("assets/fonts/Courgette-Regular.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-Regular.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-Regular.ttf");
+  font-weight: 300;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header .container .nav-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  background-color: rgb(214, 226, 195);
+}
+.main {
+  border: 1px solid rgb(255, 255, 255);
+}
+.header {
+  background-color: rgb(214, 226, 195);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-link {
+  position: relative;
+  color: #545fef;
+  text-decoration: none;
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  font-family: "Courgette", "sans-serif";
+  font-size: 18px;
+  font-weight: 400;
+  color: #545fef;
+  transition: 0.5s;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: #fa3838;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-out;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+.nav-link:hover {
+  color: #fa3838;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+  padding-left: 15px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.section h2 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 15px;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+h1.section-title {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 5px;
+  padding-left: 15px;
+  text-align: center;
+  font-style: italic;
+  text-transform: uppercase;
+  font-family: "Roboto", "sans-serif";
+  line-height: 1.5;
+}
+
+h2.section-title {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  padding-left: 15px;
+  text-transform: uppercase;
+  font-family: "Roboto", "sans-serif";
+  line-height: 1.5;
+}
+
+.contacts-first {
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto", "sans-serif";
+  color: #799a7d;
+}
+
+.contacts-second {
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto", "sans-serif";
+  margin-left: 10px;
+  color: #454251;
+}
+
+.section-summary {
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto", "sans-serif";
+  color: #000000;
+}
+
+.skills-content {
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto", "sans-serif";
+  color: #000000;
+}
+
+.skills {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-content::before {
+  content: "\2713";
+  color: #799a7d;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.education {
+  list-style: none;
+  padding-left: 0;
+}
+
+.education-institute::before {
+  content: "\2666";
+  color: #799a7d;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.code-realization {
+  padding-left: 15px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 100;
+  font-family: "sans-serif";
+  color: #000000;
+}
+
+.education-institute {
+  padding-left: 15px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto", "sans-serif";
+  color: #000000;
+}
+
+.languages {
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto", "sans-serif";
+  color: #000000;
+}
+
+.languages-level {
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto", "sans-serif";
+  color: #799a7d;
+}
+
+.section-contacts {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contacts-email::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(assets/img/icon/email-logo.ico);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.contacts-telegram::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(assets/img/icon/telegram-logo.ico);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.contacts-linkedin::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(assets/img/icon/in-logo.ico);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.contacts-github::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(assets/img/icon/github-logo.ico);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.contacts-discord::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(assets/img/icon/discord-logo.ico);
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #4f8266;
+}
+
+.rss {
+  width: 100px;
+  height: 40px;
+  background-image: url(assets/img/rs_school_js.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.github::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(assets/img/icon/github-logo.ico);
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.footer-year {
+  margin-left: 15px;
+}
