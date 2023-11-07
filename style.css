@@ -346,21 +346,14 @@ h2.section-title {
   margin-left: 15px;
 }
 
-.contact-link{
+.contact-link {
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
   font-family: "Roboto", "sans-serif";
-  color:#000000;
-  transition: transform 0.5s ease-in-out;
-  &:hover {
-    color: red;
-  }
-  &:hover::after {
-    color: #000000;
-  }
+  color: #000000;
 }
 
-
-
-
+.contact-link:hover {
+  color: red;
+}
