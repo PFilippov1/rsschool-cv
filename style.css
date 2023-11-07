@@ -345,3 +345,15 @@ h2.section-title {
 .footer-year {
   margin-left: 15px;
 }
+
+.contact-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roboto", "sans-serif";
+  color: #000000;
+}
+
+.contact-link:hover {
+  color: red;
+}
