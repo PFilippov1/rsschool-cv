@@ -9,7 +9,7 @@
 - E-mail: p.filippov2.20@gmail.com
 - Telegram: @pFiller
 - [LinkedIn](https://linkedin.com/in/pavel-filipau)
-- Discord: Pavel(@pfilippov1)
+- Discord: Filler(@pfilippov1)
 
 ---
 ### **Briefly About Myself:**
